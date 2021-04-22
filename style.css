@@ -1,0 +1,42 @@
+h1 {
+    font-size: 50px;
+    background-image: url("https://i.pinimg.com/originals/38/e8/47/38e847817e5571683e877116ec785e02.gif")
+}
+
+.container {
+    font-size: 50px;
+}
+
+.paragraph-styling-1 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 40px;
+    color: green;
+}
+
+.paragraph-styling-2 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 40px;
+    color: yellow;
+}
+
+.paragraph-styling-3 {
+    margin: 0;
+    cursor: pointer;
+    font-size: 40px;
+    color: red;
+}
+
+#pic {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    margin-top: 32%;
+    margin-left:44.5%
+}
+
+p {
+    font-size: 20px;
+    color: lightskyblue;
+}
