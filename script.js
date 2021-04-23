@@ -39,12 +39,8 @@ function init (){
         }   else if (urgency > 3) {
                 alert("The urgency must be between 1-3");
                 return null
-        }   else if (urgency == 1) {
-            all();
-        }   else if (urgency == 2) {
-            all(); 
-        }   else if (urgency == 3) {
-            all();
+        }   else if (urgency == 1 || urgency == 2 || urgency == 3) {
+                all();
         } else {
             return null
         }
@@ -73,17 +69,3 @@ inputField.addEventListener("keypress", function(e) {
         init();
     }
 });
-
-var paragraph = document.createElement('p');
-    paragraph.classList.add('paragraph-styling-' + urgency);
-    paragraph.innerText = inputField.value;
-    toDoContainer.appendChild(paragraph);
-    inputField.value = ""
-    paragraph.addEventListener('click', function(){
-        paragraph.style.textDecoration = "line-through";
-    });
-    paragraph.addEventListener('dblclick', function(){
-        toDoContainer.removeChild(paragraph);
-        tCounter();
-        playSound();
-    });
