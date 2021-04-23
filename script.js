@@ -41,8 +41,8 @@ function init (){
                 return null
         }   else if (urgency == 1 || urgency == 2 || urgency == 3) {
                 all();
-        } else {
-            return null
+        }   else {
+                return null
         }
     }
 };
